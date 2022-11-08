@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;}
+body{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #333;
+  color: #ddd;
+}
+img{
+  width: 300px;
+  height: 300px;
+}
+.descricao{
+  width: 300px;
+}
+.descricao h2{
+  margin: 10px 0 5px 0;
+}
+.descricao p{
+  font-style: italic;
+}
+.duracao{
+  width: 300px;
+  margin: 20px;
+}
+.barra{
+  width: 300px;
+  height: 8px;
+  background: #9d9d9d;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.barra:hover .ponto{
+  opacity: 1;
+}
+#progress{
+  height: 8px;
+  width: 0;
+}
+.ponto{
+  background: #3b3b3b;
+  width: 13px;
+  height: 13px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  margin-left: -4px;
+  cursor: pointer;
+  opacity: 0;
+}
+/*.ponto:hover{
+  opacity: 1;
+}*/
+.tempo{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.player{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.tocar{
+  font-size: 50px;
+}
+.tocar:hover{
+  color: #9d9d9d;
+}
+.pause{
+  font-size: 50px;
+}
+.pause:hover{
+  color: #9d9d9d;
+}
+.voltar{
+  font-size: 40px;
+}
+.voltar:hover{
+  color: #9d9d9d;
+}
+.avancar{
+  font-size: 40px;
+}
+.avancar:hover{
+  color: #9d9d9d;
+}
+.fa-solid{
+  cursor: pointer;
+}
