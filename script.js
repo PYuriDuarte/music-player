@@ -54,8 +54,6 @@ document.querySelector('.avancar').addEventListener('click', () => {
 function renderizarMusica(index){
   musica.setAttribute('src', listaDeMusicas[index].src);
   imagem.setAttribute('src', listaDeMusicas[index].img);
-  //nomeMusica.textContent = listaDeMusicas[index].titulo;
-  //imagem.setAttribute('src', listaDeMusicas[index].img);
   musica.addEventListener('loadeddata', () => {
       document.querySelector("h2").innerHTML = listaDeMusicas[index].titulo;
       document.querySelector("p").innerHTML = listaDeMusicas[index].artista;
