@@ -1,8 +1,8 @@
 let listaDeMusicas = [
-  {titulo:'Escape: The Pina Colada', artista: 'Rupert Holmes', src:'/music/10. Rupert Holmes - Escape The Pina Colada Song.mp3', img:'/img/guardians-of-the-galaxy.jpg'},
-  {titulo:'Amiga da Minha Mulher', artista:'Seu Jorge', src:'/music/Amiga Da Minha Mulher - Seu Jorge (Músicas Para Churrasco Vol.1).mp3', img:'/img/seujorge.jpg'},
-  {titulo:'Dengo', artista:'Anavitória', src:'/music/Anavitória - Dengo (Audio).mp3', img:'/img/anavitoria.jpeg'},
-  {titulo:'Me namora', artista:'Natiruts', src:'/music/Natiruts - Me Namora.mp3', img:'/img/natiruts.jpg'},
+  {titulo:'Escape: The Pina Colada', artista: 'Rupert Holmes', src:'./music/10. Rupert Holmes - Escape The Pina Colada Song.mp3', img:'./img/guardians-of-the-galaxy.jpg'},
+  {titulo:'Amiga da Minha Mulher', artista:'Seu Jorge', src:'./music/Amiga Da Minha Mulher - Seu Jorge (Músicas Para Churrasco Vol.1).mp3', img:'./img/seujorge.jpg'},
+  {titulo:'Dengo', artista:'Anavitória', src:'./music/Anavitória - Dengo (Audio).mp3', img:'./img/anavitoria.jpeg'},
+  {titulo:'Me namora', artista:'Natiruts', src:'./music/Natiruts - Me Namora.mp3', img:'./img/natiruts.jpg'},
 ];
 
 let musica = document.querySelector('audio');
